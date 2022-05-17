@@ -1,6 +1,6 @@
 {
   "name": "@saengmotmi/github-packages-test",
-  "version": "0.0.2",
+  "version": "0.0.2-beta.1",
   "description": "github package test",
   "main": "index.js",
   "scripts": {

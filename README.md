@@ -26,7 +26,7 @@
     "url": "https://github.com/saengmotmi/github-packages-test.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/" // npm이 아닌 github package로 배포
+    "registry": "https://npm.pkg.github.com/"
   }
 }
 ```
