@@ -4,10 +4,15 @@
 
 #### package.json 작성
 
+- name: `@조직명/패키지` 이름 으로 짓고, 소문자로만 사용
+- version: `npm update patch` 하면 semver 버전이 업데이트 됨
+- repository.url: 레파지토리 주소
+- publishConfig.registry: `https://npm.pkg.github.com/`로 설정하면 npm이 아닌 github package로 배포
+
 ```json
 {
-  "name": "@saengmotmi/github-packages-test", // @조직명/패키지 이름 으로 짓고, 소문자로만 사용
-  "version": "0.0.2", // npm update patch 하면 semver 버전이 업데이트 됨
+  "name": "@saengmotmi/github-packages-test",
+  "version": "0.0.2",
   "description": "github package test",
   "main": "index.js",
   "scripts": {
@@ -18,7 +23,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saengmotmi/github-packages-test.git" // 레파지토리 주소
+    "url": "https://github.com/saengmotmi/github-packages-test.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/" // npm이 아닌 github package로 배포
